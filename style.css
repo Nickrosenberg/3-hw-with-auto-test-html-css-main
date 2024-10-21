@@ -125,12 +125,12 @@ select:hover,
 .skills-block {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;/* 📍 Свойства flexbox для расположения формы над элементами с классом .label */
 }
 
 .skills {
-    /* 📍 Свойства flexbox для расположения элементов с классом .label */
+    gap: 20px;/* 📍 Свойства flexbox для расположения элементов с классом .label */
 }
 
 .books-list {
